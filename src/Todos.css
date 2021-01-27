@@ -1,0 +1,27 @@
+.list-item{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 91%;
+    margin: auto;
+    margin-top: 12px;
+    display: flex;
+}
+.list-item  #cancel , .list-item  #done{
+  flex-basis: 10%;
+  cursor: pointer;
+  align-self: center;
+}
+.list-item  #task{
+    flex-basis: 90%;
+    word-break: break-all;
+    font-size: 23px;
+}
+.list-item  #task input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    height: auto;
+}
